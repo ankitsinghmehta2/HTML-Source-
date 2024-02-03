@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+.nav-child1{
+    cursor: pointer;
+    padding:4px 5px ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.nav h1{
+    cursor: pointer;
+    font-weight: 300;
+}
+.nav-child3 button{
+    padding: 4px 10px ;
+    margin: 2px;
+    border-radius: 100px;
+}
+.nav-child3 .btn{
+    background-color: red;
+    color: white;
+}
+#parent>h1{
+    letter-spacing: 27px;
+    width: 100%;
+    font-size: 160px;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    cursor: pointer;
+    object-position: top;
+    object-fit: cover;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+
+}
+.img1{
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+.img2{
+    transform:translate(-50%,-50%) rotate(-20deg);
+}
+.img3{
+    transform:translate(-50%,-50%) rotate(-10deg);
+}
+.btm-left{
+position: absolute;
+bottom: 5%;
+left: 3%;
+font-size: 19px;
+}
